@@ -35,7 +35,7 @@ Y-Phone (สมุดโทรศัพท์) แอปพลิเคชัน
 
 |                             หน้าหลัก |                 รายละเอียด                |                  การติดต่อ                 |
 | -----------------------------------: | :---------------------------------------: | :----------------------------------------: |
-| ![Home](screenshots/home_screen.png) | ![Detail](screenshots/contact_detail.png) | ![Contact](screenshots/contact_screen.png) |
+| ![Home](screenshots/home_screen.jpg) | ![Detail](screenshots/contact_detail.jpg) | ![Contact](screenshots/contact_screen.jpg) |
 
 ---
 
