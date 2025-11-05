@@ -1,0 +1,48 @@
+name: y_phone
+description: "Y-Phone: สมุดโทรศัพท์ดิจิทัลจังหวัดยโสธร - ค้นหารายชื่อหน่วยงานภาครัฐได้รวดเร็วและแม่นยำ"
+publish_to: "none"
+
+version: 1.0.0+4
+
+environment:
+  # อัปเดตเวอร์ชัน SDK ให้รองรับ packages ใหม่ๆ
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Updated Versions ---
+  http: ^1.2.1
+  infinite_scroll_pagination: ^4.0.0 # เวอร์ชันนี้ยังคงเดิมเนื่องจากเป็น Major release ล่าสุดที่เสถียร
+  cached_network_image: ^3.3.1
+  url_launcher: ^6.2.6
+  motion_tab_bar_v2: ^0.4.0
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.3
+  connectivity_plus: ^5.0.2 # อัปเดตเวอร์ชันล่าสุดที่รองรับ SDK ปัจจุบัน
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  # อัปเดต linter ให้เป็นเวอร์ชันล่าสุด
+  flutter_lints: ^3.0.0 
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.webp
+    - assets/icon.png
+
